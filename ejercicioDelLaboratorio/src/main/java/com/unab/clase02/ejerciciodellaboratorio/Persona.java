@@ -16,10 +16,10 @@ public class Persona {
     private double Peso;
     private double Altura;
 
-//    CONSTRUCTOR VACIO PARA RECIBIR DATOS POT TECLADO DEL OBJETO 3
+//    CONSTRUCTOR VACIO PARA RECIBIR DATOS POr TECLADO DEL OBJETO 3
     public Persona() {
     }
-//    CONSTRUCTOR CON UNCIAMENTE LOS PARAEMTROS PARA LA PERSONA 2
+//    CONSTRUCTOR CON LOS PARAEMTROS PARA LA PERSONA 2
 
     public Persona(String Nombre, int Edad, char Sexo) {
         this.Nombre = Nombre;
@@ -90,12 +90,12 @@ public class Persona {
     public void setAltura(double Altura) {
         this.Altura = Altura;
     }
-//  METODO TOSTRING UTILIZADO PARA PRESENTAR LOS ATRIBUTOS DE LA PERSONA 1.
+
     public String toString() {
         return "persona{" + "Nombre=" + Nombre + ", Edad=" + Edad + ", Sexo=" + Sexo + ", Peso=" + Peso + ", Altura=" + Altura + '}';
     
     }
-//  METODO TOSTRING UTILIZADO PARA PRESENTAR LOS ATRIBUTOS DE LA PERSONA 2.
+
     public String toString2() {
         return "persona{" + "Nombre=" + Nombre + ", Edad=" + Edad + ", Sexo=" + Sexo + '}';
     }
